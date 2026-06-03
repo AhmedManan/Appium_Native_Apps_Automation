@@ -7,7 +7,7 @@ capabilities: Dict[str, Any] = {
     "platformName": "Android",
     "deviceName": "emulator-5554",
     "automationName": "UiAutomator2",
-    "appPackage": "org.videolan.vlc",
+    "appPackage": "com.google.android.dialer",
     # "appActivity": "org.videolan.vlc.StartActivity",
     "appium:adbExecTimeout": 60000,
     "appium:noReset": True,
