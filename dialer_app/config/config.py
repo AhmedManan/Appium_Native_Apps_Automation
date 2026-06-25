@@ -7,8 +7,8 @@ APPIUM_SERVER_URL = "http://localhost:4723"
 ANDROID_CAPABILITIES = {
     "platformName": "Android",
     "automationName": "UiAutomator2",
-    "deviceName": "emulator-5554",       # আপনার device name দিন (adb devices দিয়ে দেখুন)
-    "platformVersion": "11.0",           # আপনার Android version দিন
+    "deviceName": "acb2cc1e",       # device name (adb devices)
+    # "platformVersion": "11.0",           # Android version
     "appPackage": "com.android.dialer",  # Stock Android dialer
     "appActivity": ".app.DialtactsActivity",
     "noReset": True,
